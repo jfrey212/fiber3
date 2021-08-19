@@ -25,6 +25,8 @@
 
 #Find out if there is a gem for displaying data in columns nicely
 
+require 'table_print'
+
 class Sample
 
 end
