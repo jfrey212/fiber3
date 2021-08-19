@@ -28,6 +28,23 @@
 require 'table_print'
 
 class Sample
+  
+  def initialize(id=0, count=0, volume=0, fields=100)
+    @id = id
+    @count = count
+    @volume = volume
+    @fields = fields
+  end
+
+  attr_accessor :id, :count, :volume, :fields
+
+  def mm2
+    (@count / (@fields * 0.00785)).round(3)
+  end
+
+  def cc
+    (((@count / (@fields * 0.00785)) * 385) / (@volume * 1000)).round(3)
+  end
 
 end
 
