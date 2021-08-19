@@ -22,3 +22,31 @@
 #Is it possible to use Prawn gem to generate a PDF air sample log - may only be possible in Rails
 
 #Use Git this time for version control
+
+#Find out if there is a gem for displaying data in columns nicely
+
+class Sample
+
+end
+
+def create
+
+end
+
+def read
+
+end
+
+def update
+
+end
+
+def destroy
+
+def print_samples
+
+end
+
+loop do
+
+end
