@@ -25,6 +25,8 @@
 
 #Find out if there is a gem for displaying data in columns nicely
 
+#May need a sheet class with AAR data, microscope data, client data etc. A sheet would have one to many association with sample class
+
 require 'table_print'
 
 class Sample
