@@ -1,4 +1,4 @@
-#3rd version of air sample entry program
+#3rd version of air sample entry program requirements
 
 #Sample class definition - a sample has count, volume, duration, fields, id
 #Potentially use time objects to dynamically generate the duration
